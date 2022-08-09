@@ -1,4 +1,4 @@
-button {
+.my-button {
     font-family: 'Montserrat', sans-serif;
     border: 0;
     border-radius: 10px;
@@ -13,7 +13,7 @@ button {
     transition: all 200ms;
 }
 
-button:hover {
+.my-button:hover {
     background-color: rgba(0, 0, 0, 0.641);
     transition: 200ms;
     transform: translateY(-2px);
@@ -21,7 +21,7 @@ button:hover {
     cursor: pointer;
 }
 
-button:active {
+.my-button:active {
     color: #343a40da;
     text-shadow: 1px 1px 1px #adb5bd;
     background-color: #dee2e6;
